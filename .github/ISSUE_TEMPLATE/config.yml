@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security vulnerability
+    url: https://github.com/1n50mn14c933k/Media_Kolfat/security
+    about: Do not publish security vulnerabilities in a public issue.
+  - name: Media Kolfat website
+    url: https://kolfat.app/en/Media_Kolfat/
+    about: Visit the official Media Kolfat product page.
