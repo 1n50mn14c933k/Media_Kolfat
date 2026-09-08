@@ -14,6 +14,10 @@ MEDIA KOLFAT is a Windows desktop application for organizing and managing photo 
 
 MEDIA KOLFAT is in final development and release preparation.
 
+The current focus is delivering the best possible software experience for MEDIA KOLFAT users on Windows.
+
+If the application receives strong adoption, positive feedback and growing community demand, I would like to explore bringing MEDIA KOLFAT to additional desktop platforms such as **Linux** and **macOS** in the future.
+
 The first public production release will be announced here and on the official KOLFAT website.
 
 ## Official links
