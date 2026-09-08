@@ -159,7 +159,7 @@ MEDIA KOLFAT is proprietary software.
 
 This public repository is provided for product information, community interaction, support coordination and release transparency. No open-source license is granted for the MEDIA KOLFAT application source code.
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for the forms of public contribution accepted here.
+See [LICENSE.md](LICENSE.md) for the repository's proprietary rights notice and [CONTRIBUTING.md](CONTRIBUTING.md) for the forms of public contribution accepted here.
 
 ---
 
