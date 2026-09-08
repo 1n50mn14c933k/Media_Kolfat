@@ -29,6 +29,7 @@ jobs:
           test -f "SUPPORT.md"
           test -f "ROADMAP.md"
           test -f "CONTRIBUTING.md"
+          test -f "CHANGELOG.md"
 
       - name: Block sensitive or application-source material
         shell: bash
@@ -61,3 +62,14 @@ jobs:
           done
 
           echo "No blocked sensitive or application-source files found."
+
+      - name: Block production installer artifacts
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          if find . -type f \( -iname "*.msix" -o -iname "*.msixbundle" -o -iname "*.appx" -o -iname "*.appxbundle" \) -print -quit | grep -q .; then
+            echo "Production installer artifact found in the public repository."
+            echo "Use the Microsoft Store as the authoritative distribution channel."
+            exit 1
+          fi
