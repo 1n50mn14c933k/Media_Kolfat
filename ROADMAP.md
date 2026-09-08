@@ -44,9 +44,13 @@ Specific PRO functionality will be announced only when it is sufficiently define
 
 ## Future development
 
-Future development may include additional organization, discovery, automation and intelligent media-management capabilities.
+The current priority is to provide the best possible software experience for MEDIA KOLFAT users on Windows.
 
-No unreleased feature listed or discussed publicly should be interpreted as a guaranteed commitment or release date.
+If MEDIA KOLFAT receives strong adoption, positive feedback and growing community demand, future development may explore additional desktop platforms such as **Linux** and **macOS**.
+
+Future development may also include additional organization, discovery, automation and intelligent media-management capabilities.
+
+No unreleased feature, platform or capability listed or discussed publicly should be interpreted as a guaranteed commitment or release date.
 
 ## Release history
 
