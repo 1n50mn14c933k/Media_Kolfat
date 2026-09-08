@@ -24,14 +24,18 @@ jobs:
           set -euo pipefail
           test -f ".github/CODEOWNERS"
           test -f ".github/dependabot.yml"
+          test -f ".github/PULL_REQUEST_TEMPLATE.md"
           test -f "README.md"
           test -f "SECURITY.md"
           test -f "SUPPORT.md"
           test -f "ROADMAP.md"
           test -f "CONTRIBUTING.md"
           test -f "CHANGELOG.md"
+          test -f "RELEASE_CHECKLIST.md"
+          test -f "LICENSE.md"
+          test -f "assets/media-kolfat-logo.png"
 
-      - name: Block sensitive or application-source material
+      - name: Block sensitive or proprietary application-source material
         shell: bash
         run: |
           set -euo pipefail
@@ -39,6 +43,7 @@ jobs:
           blocked_files='
           .env
           .env.local
+          .env.production
           id_rsa
           id_ed25519
           passwords.txt
@@ -50,8 +55,15 @@ jobs:
           *.key
           *.p12
           *.pfx
+          *.snk
           *.sln
+          *.slnx
           *.csproj
+          *.cs
+          *.xaml
+          *.axaml
+          *.props
+          *.targets
           '
 
           for file in $blocked_files; do
@@ -61,15 +73,28 @@ jobs:
             fi
           done
 
-          echo "No blocked sensitive or application-source files found."
+          echo "No blocked sensitive or proprietary application-source files found."
 
-      - name: Block production installer artifacts
+      - name: Block production installer and package artifacts
         shell: bash
         run: |
           set -euo pipefail
 
-          if find . -type f \( -iname "*.msix" -o -iname "*.msixbundle" -o -iname "*.appx" -o -iname "*.appxbundle" \) -print -quit | grep -q .; then
-            echo "Production installer artifact found in the public repository."
-            echo "Use the Microsoft Store as the authoritative distribution channel."
+          if find . -type f \(             -iname "*.msix" -o             -iname "*.msixbundle" -o             -iname "*.appx" -o             -iname "*.appxbundle" -o             -iname "*.msi" -o             -iname "*.exe"           \) -print -quit | grep -q .; then
+            echo "Production installer/package artifact found in the public repository."
+            echo "Use the Microsoft Store as the authoritative production distribution channel."
             exit 1
           fi
+
+      - name: Check tracked files for obvious credential markers
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          if git grep -nEI             '(BEGIN (RSA |OPENSSH |EC )?PRIVATE KEY|github_pat_[A-Za-z0-9_]+|ghp_[A-Za-z0-9]+|AKIA[0-9A-Z]{16})'             -- ':!*.md' ':!.github/workflows/repository-hygiene.yml'
+          then
+            echo "Potential credential material detected in tracked files."
+            exit 1
+          fi
+
+          echo "Repository hygiene checks passed."
