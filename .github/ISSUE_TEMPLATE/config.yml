@@ -1,8 +1,14 @@
 blank_issues_enabled: false
 contact_links:
+  - name: MEDIA KOLFAT Support
+    url: https://kolfat.app/support/
+    about: Get help, troubleshooting information and official support.
   - name: Security vulnerability
     url: https://github.com/1n50mn14c933k/Media_Kolfat/security
     about: Do not publish security vulnerabilities in a public issue.
-  - name: Media Kolfat website
+  - name: MEDIA KOLFAT website
     url: https://kolfat.app/en/Media_Kolfat/
-    about: Visit the official Media Kolfat product page.
+    about: Visit the official MEDIA KOLFAT product page.
+  - name: Privacy Policy
+    url: https://kolfat.app/privacy/
+    about: Read the official KOLFAT Privacy Policy.
