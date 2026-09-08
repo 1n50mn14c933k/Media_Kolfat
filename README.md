@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/media-kolfat-logo.webp" alt="MEDIA KOLFAT official logo" width="320">
+</p>
+
 # MEDIA KOLFAT
 
 **MEDIA KOLFAT takes care of your media.**
