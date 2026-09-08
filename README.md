@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/media-kolfat-logo.webp" alt="MEDIA KOLFAT official logo" width="320">
+  <img src="assets/media-kolfat-logo.png" alt="MEDIA KOLFAT official logo" width="600">
 </p>
 
 # MEDIA KOLFAT
