@@ -1,16 +1,27 @@
 name: Feature request
-description: Suggest an improvement for Media Kolfat
+description: Suggest an improvement for MEDIA KOLFAT
 title: "[Feature]: "
 labels:
   - enhancement
 body:
+  - type: markdown
+    attributes:
+      value: |
+        Feature requests are welcome. Please describe the real problem or workflow first. A request does not imply a commitment to implement or release the feature.
+
   - type: textarea
     id: problem
     attributes:
       label: Problem or use case
-      description: What problem would you like Media Kolfat to solve?
+      description: What problem would you like MEDIA KOLFAT to solve?
     validations:
       required: true
+
+  - type: textarea
+    id: workflow
+    attributes:
+      label: Current workflow
+      description: How do you handle this today?
 
   - type: textarea
     id: proposal
@@ -21,7 +32,23 @@ body:
       required: true
 
   - type: textarea
+    id: benefit
+    attributes:
+      label: Expected benefit
+      description: How would this improve your media-management workflow?
+    validations:
+      required: true
+
+  - type: textarea
     id: alternatives
     attributes:
       label: Alternatives considered
       description: Optional — describe other approaches you considered.
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Confirmation
+      options:
+        - label: I searched existing issues for similar requests.
+          required: true
