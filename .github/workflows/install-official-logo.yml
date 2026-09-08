@@ -1,0 +1,41 @@
+name: Install Official MEDIA KOLFAT Logo
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/install-official-logo.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  install-logo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+
+      - name: Rebuild official logo
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p assets
+          cat .logo-upload/*.b64 | base64 --decode > assets/media-kolfat-logo.webp
+          file assets/media-kolfat-logo.webp
+          test -s assets/media-kolfat-logo.webp
+
+      - name: Commit official logo and clean temporary files
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm -rf .logo-upload
+          rm -f .github/workflows/install-official-logo.yml
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add -A
+          git commit -m "Add official MEDIA KOLFAT logo"
+          git push
