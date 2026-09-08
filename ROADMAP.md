@@ -1,32 +1,53 @@
-# Media Kolfat Public Roadmap
+# MEDIA KOLFAT Public Roadmap
 
-This roadmap intentionally contains only public-facing development goals. Internal implementation details, security work and proprietary engineering plans are maintained privately.
+This roadmap intentionally contains only public-facing product goals. Internal implementation details, security work and proprietary engineering plans are maintained privately.
 
-## In development
+The roadmap is directional, not contractual. Items may change, move or be removed as the product develops.
+
+## Release 1.0 focus
+
+The first public release is focused on a reliable Windows media-organization foundation:
 
 - Reliable photo and video library handling
-- Safe media organization workflows
+- Media source management
 - Metadata and date handling
+- Predictable date-based organization workflows
 - Thumbnail and preview reliability
-- Light and dark themes
+- Safe handling of media without usable EXIF/date metadata
+- Dedicated dark user interface
+- Large-library performance and stability
 - Windows-focused desktop experience
-- Performance and stability validation
+- Microsoft Store packaging and distribution
+- User-facing support, privacy and legal documentation
 
-## Before first public release
+## Before the first public release
 
 - Complete functional validation
-- Complete installer and Microsoft Store packaging
-- Security and privacy review
-- Performance testing with large media libraries
-- User-facing documentation
-- Release notes and support documentation
+- Complete Microsoft Store / MSIX packaging
+- Complete security and privacy review
+- Validate performance with large media libraries
+- Complete public support documentation
+- Complete release notes and version history
+- Validate final production branding and screenshots
 
 ## Distribution
 
 The first production release is planned for distribution through the Microsoft Store.
 
-## Future
+The Microsoft Store will be the authoritative installation and update channel for production builds.
 
-Additional functionality will be announced only when it is ready to be publicly committed to.
+## MEDIA KOLFAT PRO
 
-This roadmap is not a contractual release schedule and may change as development progresses.
+An optional paid MEDIA KOLFAT PRO edition/add-on is planned for additional advanced functionality.
+
+Specific PRO functionality will be announced only when it is sufficiently defined and ready to be publicly committed to.
+
+## Future development
+
+Future development may include additional organization, discovery, automation and intelligent media-management capabilities.
+
+No unreleased feature listed or discussed publicly should be interpreted as a guaranteed commitment or release date.
+
+## Release history
+
+See [CHANGELOG.md](CHANGELOG.md) and GitHub Releases for public version history.
