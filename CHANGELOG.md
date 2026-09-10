@@ -4,15 +4,16 @@ All notable public production changes to MEDIA KOLFAT will be documented here.
 
 This changelog covers public product releases. Internal development builds, private engineering changes and security-sensitive implementation details are not listed.
 
-The project uses a `MAJOR.MINOR.PATCH` version format for public production releases.
-
 ## [Unreleased]
 
-MEDIA KOLFAT is currently in final preparation for its first public production release.
+Future production changes will be documented here before publication.
 
-### Planned for 1.0.0
+## Microsoft Store launch — 2026-09-10
 
-- Initial public MEDIA KOLFAT release for Windows
+MEDIA KOLFAT is now publicly available through the Microsoft Store.
+
+### Initial public release highlights
+
 - Media source management
 - Photo and video library browsing
 - Metadata and date handling
@@ -24,11 +25,8 @@ MEDIA KOLFAT is currently in final preparation for its first public production r
 - Microsoft Store distribution
 - Public support, privacy, security and legal documentation
 
-The exact final 1.0.0 contents may change until the production release is published.
-
-## [1.0.0] — Not released
-
-The first production release will be documented here when it becomes publicly available through the Microsoft Store.
+Microsoft Store:
+https://apps.microsoft.com/detail/9p0x091t7mv4?ocid=webpdpshare
 
 ---
 
