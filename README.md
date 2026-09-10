@@ -27,6 +27,36 @@ If the application receives strong adoption, positive feedback and growing commu
 - 🐛 Bug reports: https://github.com/1n50mn14c933k/Media_Kolfat/issues
 - 🗺️ Public roadmap: [ROADMAP.md](ROADMAP.md)
 
+## 🔐 Why MEDIA KOLFAT is distributed through the Microsoft Store
+
+I chose to distribute **MEDIA KOLFAT exclusively through the Microsoft Store** because I want users to have a safer, more predictable, and more trustworthy installation experience.
+
+By using the Microsoft Store, users benefit from Microsoft's controlled distribution infrastructure, signed application packages, package-integrity checks, and a consistent installation and update process.
+
+This also reduces the risk of users downloading modified, repackaged, or malicious copies of MEDIA KOLFAT from unofficial websites or download mirrors.
+
+The Microsoft Store provides several practical advantages:
+
+- ✅ **Signed application packages** that help verify the publisher and package integrity
+- ✅ **Trusted distribution channel** instead of random third-party download sites
+- ✅ **Automatic and controlled updates** through Windows
+- ✅ **Consistent installation and removal**
+- ✅ **Reduced risk of tampered or repackaged installers**
+- ✅ **Microsoft Store certification and validation before publication**
+- ✅ **Cleaner package management through Windows**
+- ✅ **A single authoritative source for the official MEDIA KOLFAT build**
+
+MEDIA KOLFAT itself is designed around a **local-first approach**. Your photo and video library remains on your own computer during the normal media-management workflow.
+
+For these reasons, I deliberately chose **not to distribute production `.exe`, `.msi`, or `.msix` installers directly through GitHub**.
+
+### 🪟 Official download
+
+➡️ **Microsoft Store:**  
+https://apps.microsoft.com/detail/9p0x091t7mv4?ocid=webpdpshare
+
+> **If you find MEDIA KOLFAT installers on another website, they should not be considered an official KOLFAT distribution unless explicitly stated otherwise.**
+
 ## What is MEDIA KOLFAT?
 
 Large photo and video collections can become difficult to manage when files come from different cameras, phones, folders and years.
