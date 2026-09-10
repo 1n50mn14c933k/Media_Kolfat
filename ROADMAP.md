@@ -4,9 +4,15 @@ This roadmap intentionally contains only public-facing product goals. Internal i
 
 The roadmap is directional, not contractual. Items may change, move or be removed as the product develops.
 
-## Release 1.0 focus
+## Current release status
 
-The first public release is focused on a reliable Windows media-organization foundation:
+MEDIA KOLFAT is **available now on the Microsoft Store**:
+
+https://apps.microsoft.com/detail/9p0x091t7mv4?ocid=webpdpshare
+
+The current priority is to provide the best possible software experience for MEDIA KOLFAT users on Windows through stability, usability, performance and community feedback.
+
+## Current Windows focus
 
 - Reliable photo and video library handling
 - Media source management
@@ -16,25 +22,9 @@ The first public release is focused on a reliable Windows media-organization fou
 - Safe handling of media without usable EXIF/date metadata
 - Dedicated dark user interface
 - Large-library performance and stability
-- Windows-focused desktop experience
-- Microsoft Store packaging and distribution
+- Windows desktop experience
+- Microsoft Store distribution and updates
 - User-facing support, privacy and legal documentation
-
-## Before the first public release
-
-- Complete functional validation
-- Complete Microsoft Store / MSIX packaging
-- Complete security and privacy review
-- Validate performance with large media libraries
-- Complete public support documentation
-- Complete release notes and version history
-- Validate final production branding and screenshots
-
-## Distribution
-
-The first production release is planned for distribution through the Microsoft Store.
-
-The Microsoft Store will be the authoritative installation and update channel for production builds.
 
 ## MEDIA KOLFAT PRO
 
@@ -44,13 +34,15 @@ Specific PRO functionality will be announced only when it is sufficiently define
 
 ## Future development
 
-The current priority is to provide the best possible software experience for MEDIA KOLFAT users on Windows.
-
 If MEDIA KOLFAT receives strong adoption, positive feedback and growing community demand, future development may explore additional desktop platforms such as **Linux** and **macOS**.
 
 Future development may also include additional organization, discovery, automation and intelligent media-management capabilities.
 
 No unreleased feature, platform or capability listed or discussed publicly should be interpreted as a guaranteed commitment or release date.
+
+## Distribution
+
+The Microsoft Store is the authoritative production installation and update channel.
 
 ## Release history
 
