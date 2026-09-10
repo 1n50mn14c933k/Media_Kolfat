@@ -1,5 +1,9 @@
 # MEDIA KOLFAT Support
 
+MEDIA KOLFAT is now available through the Microsoft Store:
+
+https://apps.microsoft.com/detail/9p0x091t7mv4?ocid=webpdpshare
+
 For the official support portal, visit:
 
 https://kolfat.app/support/
@@ -29,14 +33,14 @@ Remove personal names, private file paths, media content, credentials and other 
 
 When diagnosing a problem, first verify:
 
-- MEDIA KOLFAT is up to date
+- MEDIA KOLFAT is up to date through the Microsoft Store
 - Windows is up to date
 - The affected media source is still accessible
 - The application can access the relevant folders
 - The issue can be reproduced consistently
 - Any screenshot or log is sanitized before sharing
 
-More detailed troubleshooting guidance will be maintained at https://kolfat.app/support/.
+More detailed troubleshooting guidance is maintained at https://kolfat.app/support/.
 
 ## Feature requests
 
@@ -52,7 +56,9 @@ See [SECURITY.md](SECURITY.md).
 
 ## Installation
 
-Official production installation and updates will be provided through the Microsoft Store.
+The **Microsoft Store is the authoritative installation and update channel** for MEDIA KOLFAT:
+
+https://apps.microsoft.com/detail/9p0x091t7mv4?ocid=webpdpshare
 
 This repository does not distribute production installers or MSIX packages.
 
