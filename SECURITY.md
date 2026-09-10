@@ -39,20 +39,20 @@ Do not publish:
 - Code-signing certificates, keys or signing material
 - Private proprietary source code
 
-## Supported versions
+## Supported production release
 
-Before the first public production release, no development build is considered a supported production version.
+MEDIA KOLFAT is now publicly available through the Microsoft Store.
 
-After release, this section will identify supported production versions and the applicable security-update policy.
+Users should keep MEDIA KOLFAT updated through the Microsoft Store so they receive the latest production fixes and improvements.
 
-| Version | Supported |
-| --- | --- |
-| Pre-release / development builds | No production support |
-| 1.0.x | Begins with first public production release |
+Microsoft Store:
+https://apps.microsoft.com/detail/9p0x091t7mv4?ocid=webpdpshare
+
+Pre-release or private development builds are not supported production versions.
 
 ## Official software distribution
 
-Official MEDIA KOLFAT production builds will be distributed through the Microsoft Store.
+The Microsoft Store is the authoritative distribution and update channel for MEDIA KOLFAT production builds.
 
 Do not trust production installers from third-party mirrors unless KOLFAT explicitly identifies that source as official.
 
