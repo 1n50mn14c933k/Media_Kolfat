@@ -8,24 +8,22 @@
 
 MEDIA KOLFAT is a Windows desktop application for organizing and managing photo and video collections with a focus on practical, safe, predictable media organization and a dedicated dark interface.
 
-> **Official distribution:** MEDIA KOLFAT will be distributed through the Microsoft Store. This public repository does not contain the proprietary application source code or downloadable production installers.
+> **Official distribution:** MEDIA KOLFAT is now available through the Microsoft Store. This public repository does not contain the proprietary application source code or downloadable production installers.
 
 ## Status
 
-MEDIA KOLFAT is in final development and release preparation.
+**MEDIA KOLFAT is released and available on the Microsoft Store.** 🎉
 
-The current focus is delivering the best possible software experience for MEDIA KOLFAT users on Windows.
+The current focus is delivering the best possible software experience for MEDIA KOLFAT users on Windows through stability, usability, performance and community feedback.
 
 If the application receives strong adoption, positive feedback and growing community demand, I would like to explore bringing MEDIA KOLFAT to additional desktop platforms such as **Linux** and **macOS** in the future.
 
-The first public production release will be announced here and on the official KOLFAT website.
-
 ## Official links
 
+- 🛍️ Microsoft Store: https://apps.microsoft.com/detail/9p0x091t7mv4?ocid=webpdpshare
 - 🌐 Product website: https://kolfat.app/en/Media_Kolfat/
 - 🏠 KOLFAT: https://kolfat.app/
 - 🛠️ Support: https://kolfat.app/support/
-- 🛍️ Microsoft Store: **Coming with the first public release**
 - 🐛 Bug reports: https://github.com/1n50mn14c933k/Media_Kolfat/issues
 - 🗺️ Public roadmap: [ROADMAP.md](ROADMAP.md)
 
@@ -37,7 +35,7 @@ MEDIA KOLFAT is designed to make those libraries easier to understand and organi
 
 ## Core capabilities
 
-The first public release is focused on a reliable core experience:
+The current Windows release focuses on a reliable core experience:
 
 - 📁 Add and manage media sources
 - 🖼️ Build and browse large photo and video libraries
@@ -50,13 +48,11 @@ The first public release is focused on a reliable core experience:
 - ⚡ Designed and tested with large media collections
 - 💻 Windows desktop experience
 
-Exact functionality may evolve between development builds and the first production release.
-
 ## MEDIA KOLFAT editions
 
 ### MEDIA KOLFAT
 
-The core edition is planned to remain available free of charge and provide the essential media organization experience.
+The core edition is available free of charge and provides the essential media organization experience.
 
 ### MEDIA KOLFAT PRO
 
@@ -66,9 +62,9 @@ Future PRO functionality will be announced only when it is ready to be publicly 
 
 ## System requirements
 
-MEDIA KOLFAT is built for 64-bit Windows desktop systems and will be distributed through the Microsoft Store.
+MEDIA KOLFAT is built for 64-bit Windows desktop systems and is distributed through the Microsoft Store.
 
-The final minimum supported Windows version and any additional Store requirements will be published with the production release so that the information matches the certified Microsoft Store package.
+The Microsoft Store listing is the authoritative source for current availability and platform requirements.
 
 Storage requirements depend on the size of the user's library and generated application data such as thumbnails and cache files.
 
@@ -86,7 +82,9 @@ If future cloud, online or AI-backed functionality changes how data is processed
 
 Do **not** download MEDIA KOLFAT production installers from unofficial mirrors.
 
-When MEDIA KOLFAT is released, the Microsoft Store will be the authoritative installation and update channel.
+The **Microsoft Store is the authoritative installation and update channel**:
+
+https://apps.microsoft.com/detail/9p0x091t7mv4?ocid=webpdpshare
 
 This public repository does not distribute production MSIX packages or other production installers.
 
@@ -134,9 +132,9 @@ Do **not** publish suspected security vulnerabilities in public Issues. See [SEC
 
 ## Releases and version history
 
-Release notes and version history are tracked through GitHub Releases and [CHANGELOG.md](CHANGELOG.md).
+MEDIA KOLFAT is now publicly available through the Microsoft Store.
 
-The first production release will use the `1.0.0` version line after the Microsoft Store release package is ready for public distribution.
+Release notes and version history are tracked through GitHub Releases and [CHANGELOG.md](CHANGELOG.md).
 
 ## Roadmap
 
